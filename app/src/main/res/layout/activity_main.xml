@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ssomai.android.scalablelayout.ScalableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:scale_base_height="171.11"
+    app:scale_base_width="100"
+    app:scale_height="171.11"
+    app:scale_width="100"
+    tools:context="rinc.geniusk.androidformetoring1.MainActivity">
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:scale_height="10"
+        app:scale_left="25"
+        app:scale_textsize="5"
+        app:scale_top="20"
+        app:scale_width="50" />
+
+    <EditText
+        android:id="@+id/num1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="첫번째 값을 입력하세요"
+        android:inputType="number"
+        app:scale_height="10"
+        app:scale_textsize="4"
+        app:scale_top="40"
+        app:scale_width="100" />
+
+    <EditText
+        android:id="@+id/num2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="두번째 값을 입력하세요"
+        android:inputType="number"
+        app:scale_height="10"
+        app:scale_textsize="4"
+        app:scale_top="55"
+        app:scale_width="100" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffff00"
+        android:text="+"
+        android:textColor="#ff444f"
+        app:scale_height="15"
+        app:scale_left="5"
+        app:scale_textsize="5"
+        app:scale_width="15" />
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffff00"
+        android:text="-"
+        android:textColor="#ff444f"
+        app:scale_height="15"
+        app:scale_left="25"
+        app:scale_textsize="5"
+        app:scale_width="15" />
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffff00"
+        android:text="*"
+        android:textColor="#ff444f"
+        app:scale_height="15"
+        app:scale_left="45"
+        app:scale_textsize="5"
+        app:scale_width="15" />
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffff00"
+        android:text="/"
+        android:textColor="#ff444f"
+        app:scale_height="15"
+        app:scale_left="65"
+        app:scale_textsize="5"
+        app:scale_width="15" />
+</com.ssomai.android.scalablelayout.ScalableLayout>
